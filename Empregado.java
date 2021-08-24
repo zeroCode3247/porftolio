@@ -6,7 +6,7 @@ public class Empregado{
     private double comissao;
     private double bonus;
 
-    public double calculaSalario(){
+    public double calcularSalario(){
         if(tipo == 1){
             return salario;
         }
